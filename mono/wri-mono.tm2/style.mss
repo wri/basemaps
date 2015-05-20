@@ -5,7 +5,8 @@
 @fill1: #fff;
 @fill2: #bbb;
 @fill3: #777;
-@fill4: #8C6900;
+//@fill4: #8C6900;
+@fill4: #7e6758;
 
 @text1: #fff;
 @text2: #bbb;

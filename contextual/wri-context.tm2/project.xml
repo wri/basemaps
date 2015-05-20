@@ -6,10 +6,10 @@
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
   <Parameter name="center">-122.7887,47.3983,8</Parameter>
-  <Parameter name="format">png8:m=h:c=128</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
-  <Parameter name="name"><![CDATA[WRI Contextual]]></Parameter>
+  <Parameter name="name"><![CDATA[WRI Contextual Color]]></Parameter>
   <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5]]></Parameter>
 </Parameters>
 
@@ -43,7 +43,7 @@
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([class] = 'wood')</Filter>
-    <PolygonSymbolizer fill="#efe9d6" />
+    <PolygonSymbolizer fill="#e5ead4" />
   </Rule>
 </Style>
 <Style name="landcover-5" filter-mode="first" image-filters="agg-stack-blur(32,32)">
@@ -70,7 +70,7 @@
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([class] = 'wood')</Filter>
-    <PolygonSymbolizer fill="#efe9d6" />
+    <PolygonSymbolizer fill="#e5ead4" />
   </Rule>
 </Style>
 <Style name="landcover-4" filter-mode="first" image-filters="agg-stack-blur(16,16)">
@@ -102,7 +102,7 @@
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([class] = 'wood')</Filter>
-    <PolygonSymbolizer fill="#efe9d6" />
+    <PolygonSymbolizer fill="#e5ead4" />
   </Rule>
 </Style>
 <Style name="landcover-3" filter-mode="first" image-filters="agg-stack-blur(8,8)">
@@ -134,7 +134,7 @@
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([class] = 'wood')</Filter>
-    <PolygonSymbolizer fill="#efe9d6" />
+    <PolygonSymbolizer fill="#e5ead4" />
   </Rule>
 </Style>
 <Style name="landcover-2" filter-mode="first" image-filters="agg-stack-blur(4,4)">
@@ -166,7 +166,7 @@
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([class] = 'wood')</Filter>
-    <PolygonSymbolizer fill="#efe9d6" />
+    <PolygonSymbolizer fill="#e5ead4" />
   </Rule>
 </Style>
 <Style name="landcover-0" filter-mode="first">
@@ -193,7 +193,7 @@
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([class] = 'wood')</Filter>
-    <PolygonSymbolizer fill="#efe9d6" />
+    <PolygonSymbolizer fill="#e5ead4" />
   </Rule>
 </Style>
 <Layer name="landcover"
@@ -209,16 +209,16 @@
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([class] = 'pitch')</Filter>
-    <PolygonSymbolizer fill="#f0ebda" geometry-transform="translate(-2,-2)" clip="false" />
-    <LineSymbolizer stroke-width="1" stroke="#fffffe" geometry-transform="translate(-2,-2)" clip="false" />
+    <PolygonSymbolizer fill="#e7ecd7" geometry-transform="translate(-2,-2)" clip="false" />
+    <LineSymbolizer stroke-width="1" stroke="#fcfcf9" geometry-transform="translate(-2,-2)" clip="false" />
   </Rule>
 </Style>
 <Style name="landuse-wall" filter-mode="first">
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([class] = 'pitch')</Filter>
-    <LineSymbolizer stroke="#fffffe" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
-    <PolygonSymbolizer fill="#fffffe" />
+    <LineSymbolizer stroke="#fcfcf9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+    <PolygonSymbolizer fill="#fcfcf9" />
   </Rule>
 </Style>
 <Style name="landuse" filter-mode="first">
@@ -226,36 +226,36 @@
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([class] = 'pitch')</Filter>
-    <PolygonSymbolizer fill="#f0ebda" />
-    <LineSymbolizer stroke-width="1.5" stroke="#fffffe" />
+    <PolygonSymbolizer fill="#e7ecd7" />
+    <LineSymbolizer stroke-width="1.5" stroke="#fcfcf9" />
   </Rule>
   <Rule>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([class] = 'pitch')</Filter>
-    <PolygonSymbolizer fill="#f0ebda" />
-    <LineSymbolizer stroke="#fffffe" stroke-width="1" />
+    <PolygonSymbolizer fill="#e7ecd7" />
+    <LineSymbolizer stroke="#fcfcf9" stroke-width="1" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([class] = 'park')</Filter>
-    <PolygonSymbolizer fill-opacity="0.9" fill="#f0ebda" />
+    <PolygonSymbolizer fill-opacity="0.9" fill="#e7ecd7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([class] = 'park')</Filter>
-    <PolygonSymbolizer fill-opacity="0.5" fill="#f0ebda" />
+    <PolygonSymbolizer fill-opacity="0.5" fill="#e7ecd7" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([class] = 'park')</Filter>
-    <PolygonSymbolizer fill-opacity="0.2" fill="#f0ebda" />
+    <PolygonSymbolizer fill-opacity="0.2" fill="#e7ecd7" />
   </Rule>
   <Rule>
     <Filter>([class] = 'park')</Filter>
-    <PolygonSymbolizer fill="#f0ebda" />
+    <PolygonSymbolizer fill="#e7ecd7" />
   </Rule>
 </Style>
 <Layer name="landuse"
@@ -510,68 +510,68 @@
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([type] = 'stream')</Filter>
-    <LineSymbolizer stroke-width="3" stroke="#c1af78" />
+    <LineSymbolizer stroke-width="3" stroke="#baaea4" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([type] = 'stream')</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#c1af78" />
+    <LineSymbolizer stroke-width="2" stroke="#baaea4" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] = 'stream')</Filter>
-    <LineSymbolizer stroke-width="1" stroke="#c1af78" />
+    <LineSymbolizer stroke-width="1" stroke="#baaea4" />
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'stream')</Filter>
-    <LineSymbolizer stroke="#c1af78" stroke-width="0.5" />
+    <LineSymbolizer stroke="#baaea4" stroke-width="0.5" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] = 'canal')</Filter>
-    <LineSymbolizer stroke-width="3" stroke="#ccbd90" />
+    <LineSymbolizer stroke-width="3" stroke="#c6bcb3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] = 'canal')</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#ccbd90" />
+    <LineSymbolizer stroke-width="2" stroke="#c6bcb3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'canal')</Filter>
-    <LineSymbolizer stroke-width="1" stroke="#ccbd90" />
+    <LineSymbolizer stroke-width="1" stroke="#c6bcb3" />
   </Rule>
   <Rule>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'canal')</Filter>
-    <LineSymbolizer stroke="#ccbd90" stroke-width="0.5" />
+    <LineSymbolizer stroke="#c6bcb3" stroke-width="0.5" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] = 'river')</Filter>
-    <LineSymbolizer stroke-width="3" stroke="#ccbd90" />
+    <LineSymbolizer stroke-width="3" stroke="#c6bcb3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] = 'river')</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#ccbd90" />
+    <LineSymbolizer stroke-width="2" stroke="#c6bcb3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'river')</Filter>
-    <LineSymbolizer stroke-width="1" stroke="#ccbd90" />
+    <LineSymbolizer stroke-width="1" stroke="#c6bcb3" />
   </Rule>
   <Rule>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'river')</Filter>
-    <LineSymbolizer stroke="#ccbd90" stroke-width="0.5" />
+    <LineSymbolizer stroke="#c6bcb3" stroke-width="0.5" />
   </Rule>
 </Style>
 <Layer name="waterway"
@@ -585,7 +585,7 @@
 </Style>
 <Style name="water-shadow" filter-mode="first">
   <Rule>
-    <PolygonSymbolizer fill="#ccbd90" />
+    <PolygonSymbolizer fill="#c6bcb3" />
   </Rule>
 </Style>
 <Layer name="water"

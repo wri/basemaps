@@ -12,7 +12,8 @@
 @fill1: #fff;
 @fill2: #bbb;
 @fill3: #777;
-@fill4: #8C6900;
+//@fill4: #8C6900;
+@fill4: #7e6758;
 
 @blue: #EFEAD9;
 @blue_lt:  #8C6900;
@@ -23,7 +24,6 @@
 @green-desat: desaturate(lighten(@gray-1, 30), 45);
 
 @land:  #F6F5F0;
-@park: darken( #F3EFE1, 2);
 @sand: mix(@yellow, @land, 15);
 @snow: lighten(desaturate(@blue, 45), 35);
 
@@ -31,9 +31,16 @@
 @building_line:     darken( #F3EFE1, 10);
 
 // Landcover //
-@wooded:darken( #F3EFE1, 3);
-@scrub: darken( #F3EFE1, 0);
-@grass: lighten( #F3EFE1, 0);
-@crop: lighten( #F3EFE1, 0);
-@snow: lighten( #F3EFE1, 3);
+@landcover: #F3EFE1;
+@vegitation: #ebefde;
+
+@park: darken( @vegitation, 2);
+//@wooded:darken( @landcover, 3);
+@wooded: darken( @vegitation, 3);
+@scrub: darken( @landcover, 0);
+@grass: lighten( @landcover, 0);
+@crop: lighten( @landcover, 0);
+//@grass: mix( @landcover, @vegitation, 1);
+//@crop: mix( @landcover, @vegitation, 1);
+@snow: lighten( @landcover, 3);
 

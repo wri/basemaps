@@ -1,5 +1,6 @@
 _prefs: 
   baselayer: ''
+  mapid: wri.b71b0f45
   saveCenter: false
 _properties: 
   bridge: 
@@ -15,7 +16,7 @@ center:
   - 47.3983
   - 8
 description: ''
-format: "png8:m=h:c=128"
+format: "png8:m=h"
 interactivity_layer: ''
 layers: 
   - landcover
@@ -44,7 +45,7 @@ layers:
   - contour.label
 maxzoom: 22
 minzoom: 0
-name: WRI Contextual
+name: WRI Contextual Color
 source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5"
 styles: 
   - vars.mss

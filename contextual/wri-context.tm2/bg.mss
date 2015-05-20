@@ -60,7 +60,7 @@ Map {
     [class="scrub"] { polygon-fill: @scrub; } 
     [class="grass"] { polygon-fill: @grass; } 
     [class="crop"] { polygon-fill: @crop; } 
-    [class="snow"] { polygon-fill: lighten( #F3EFE1, 3); }    
+    [class="snow"] { polygon-fill: lighten( @landcover, 3); }    
   }
  ::1[zoom>=13][zoom<=14] { image-filters: agg-stack-blur(1,1); }
  ::2[zoom=15] { image-filters: agg-stack-blur(4,4);  }
