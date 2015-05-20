@@ -14,7 +14,7 @@ L.mapbox.accessToken = 'pk.eyJ1Ijoid3JpIiwiYSI6Ik9TY2w5RTQifQ.0HV7dQTjK40mk7GpNN
   var overlays = {
       Aqueduct: L.tileLayer.wms("http://gis.wri.org/arcgis/services/Aqueduct/aqueduct_projections_2014/MapServer/WMSServer",{layers:'1', opacity: 0.5, transparent:true,format:'image/png'}),
   	  Data: L.mapbox.tileLayer('devseed.malaria-color'),
-  	  English: L.mapbox.tileLayer('wri.84642547'),
+  	  English: L.mapbox.tileLayer('wri.acf5a04e'),
   	  Locale: L.mapbox.tileLayer('wri.b677c4f8')
   };
 		
