@@ -21,7 +21,7 @@ layers: null
 maxzoom: 22
 minzoom: 0
 name: WRI labels localized
-source: "mapbox:///mapbox.mapbox-streets-v5"
+source: "mapbox:///mapbox.mapbox-streets-v5,wri.685b3685"
 styles: 
   - style.mss
 template: ''

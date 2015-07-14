@@ -1,0 +1,48 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: wri.685b3685
+  rev: s-48967683
+  saveCenter: true
+attribution: ''
+center: 
+  - 22.3434
+  - 11.1326
+  - 8
+description: |-
+  Boundary data
+  
+  
+  
+  0: do not show
+  
+  
+  
+  1: country boundary
+  
+  
+  
+  2: disputed boundary
+Layer: 
+  - id: all_bounds
+    Datasource: 
+      file: ../../../wri-bounds/dist/all_bounds.geojson
+      layer: OGRGeoJSON
+      type: ogr
+    description: ''
+    fields: 
+      CHN: Number
+      IND: Number
+      INTL: Number
+      LA3: String
+      LBR: String
+      LN: String
+      RA3: String
+      RBR: String
+      RN: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 8
+minzoom: 0
+name: wri-bounds

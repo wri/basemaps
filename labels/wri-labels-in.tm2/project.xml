@@ -9,7 +9,7 @@
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
-  <Parameter name="name"><![CDATA[WRI labels localized]]></Parameter>
+  <Parameter name="name"><![CDATA[WRI labels localized IN]]></Parameter>
   <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-streets-v5,wri.685b3685]]></Parameter>
 </Parameters>
 
@@ -297,35 +297,35 @@
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([INTL] = 2)</Filter>
+    <Filter>([IND] = 2)</Filter>
     <LineSymbolizer stroke-dasharray="4, 4" stroke-width="1.8" stroke-linejoin="round" stroke="#cccccc" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
-    <Filter>([INTL] = 2)</Filter>
+    <Filter>([IND] = 2)</Filter>
     <LineSymbolizer stroke-dasharray="4, 4" stroke-width="1.4" stroke-linejoin="round" stroke="#cccccc" />
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
-    <Filter>([INTL] = 2)</Filter>
+    <Filter>([IND] = 2)</Filter>
     <LineSymbolizer stroke-dasharray="4, 4" stroke-linejoin="round" stroke="#cccccc" stroke-width="1" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([INTL] &gt; 0)</Filter>
+    <Filter>([IND] &gt; 0)</Filter>
     <LineSymbolizer stroke-width="1.8" stroke-linejoin="round" stroke="#cccccc" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
-    <Filter>([INTL] &gt; 0)</Filter>
+    <Filter>([IND] &gt; 0)</Filter>
     <LineSymbolizer stroke-width="1.4" stroke-linejoin="round" stroke="#cccccc" />
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
-    <Filter>([INTL] &gt; 0)</Filter>
+    <Filter>([IND] &gt; 0)</Filter>
     <LineSymbolizer stroke-linejoin="round" stroke="#cccccc" stroke-width="1" />
   </Rule>
 </Style>

@@ -1,4 +1,4 @@
-@name: '[name_en]';
+@name: '[name]';
 
 @text: #666;
 @land:  #F6F5F0;
@@ -53,6 +53,7 @@
   [zoom>=10] { line-width: 3; }
   [disputed=1] { line-dasharray: 4,4; }
 } */
+/*
 #all_bounds[zoom<8][INTL>0] {
   line-join: round;
   line-color: #ccc;
@@ -61,7 +62,8 @@
   [zoom>=6] { line-width: 1.8; }
   [INTL=2] { line-dasharray: 4,4; }
 }
-/* CHINA 
+*/
+// CHINA 
 #all_bounds[zoom<8][CHN>0] {
   line-join: round;
   line-color: #ccc;
@@ -70,7 +72,6 @@
   [zoom>=6] { line-width: 1.8; }
   [CHN=2] { line-dasharray: 4,4; }
 }
-*/
 /* INDIA
 #all_bounds[zoom<8][IND>0] {
   line-join: round;
@@ -81,7 +82,6 @@
   [IND=2] { line-dasharray: 4,4; }
 }
 */
-
 
 // State labels //
 #state_label[zoom>=5] { 

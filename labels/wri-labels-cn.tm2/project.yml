@@ -1,5 +1,5 @@
 _prefs: 
-  mapid: wri.acf5a04e
+  mapid: wri.b677c4f8
   saveCenter: false
 _properties: 
   bridge: 
@@ -14,13 +14,13 @@ center:
   - 15.293
   - 50.8476
   - 4
-description: A monotone basemap that's easy to recolor.
+description: ''
 format: "png8:m=h"
 interactivity_layer: ''
 layers: null
 maxzoom: 22
 minzoom: 0
-name: WRI labels & borders
+name: WRI labels localized CN
 source: "mapbox:///mapbox.mapbox-streets-v5,wri.685b3685"
 styles: 
   - style.mss

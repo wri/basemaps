@@ -1,5 +1,5 @@
 _prefs: 
-  mapid: wri.84642547
+  mapid: wri.b677c4f8
   saveCenter: false
 _properties: 
   bridge: 
@@ -20,9 +20,8 @@ interactivity_layer: ''
 layers: null
 maxzoom: 22
 minzoom: 0
-name: WRI labels
-source: "mapbox:///mapbox.mapbox-streets-v5"
+name: WRI labels localized IN
+source: "mapbox:///mapbox.mapbox-streets-v5,wri.685b3685"
 styles: 
   - style.mss
-  - labels.mss
 template: ''
