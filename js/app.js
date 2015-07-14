@@ -6,16 +6,16 @@ L.mapbox.accessToken = 'pk.eyJ1Ijoid3JpIiwiYSI6Ik9TY2w5RTQifQ.0HV7dQTjK40mk7GpNN
   }).setView([30.0599153,31.2620199], 6);
 
   var baseLayers = {
-      Mono: L.mapbox.tileLayer('devseed.3100ad78'),
-      Context: L.mapbox.tileLayer('devseed.143aa105'),
-      'Mono color': L.mapbox.tileLayer('wri.c974eefc'),
-      'Context color': L.mapbox.tileLayer('wri.b71b0f45')
+      'Mono': L.mapbox.tileLayer('wri.c974eefc'),
+      'Context': L.mapbox.tileLayer('wri.b71b0f45')
   };
   var overlays = {
       Aqueduct: L.tileLayer.wms("http://gis.wri.org/arcgis/services/Aqueduct/aqueduct_projections_2014/MapServer/WMSServer",{layers:'1', opacity: 0.5, transparent:true,format:'image/png'}),
-  	  Data: L.mapbox.tileLayer('devseed.malaria-color'),
-  	  English: L.mapbox.tileLayer('wri.acf5a04e'),
-  	  Locale: L.mapbox.tileLayer('wri.b677c4f8')
+      Data: L.mapbox.tileLayer('devseed.malaria-color'),
+      English: L.mapbox.tileLayer('wri.acf5a04e'),
+      Locale: L.mapbox.tileLayer('wri.b677c4f8'),
+      CN: L.mapbox.tileLayer('wri.4d3dc5a3'),
+      IN: L.mapbox.tileLayer('wri.99740e02'),
   };
 		
 
