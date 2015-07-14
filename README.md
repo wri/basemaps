@@ -51,7 +51,6 @@ var map = L.map("map").setView([-77.0164, 38.9047], 5);
 
 var baseLayer = L.tileLayer("https://api.tiles.mapbox.com/v4/wri.c974eefc/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoid3JpIiwiYSI6IjU3NWNiNGI4Njc4ODk4MmIyODFkYmJmM2NhNDgxMWJjIn0.v1tciCeBElMdpnrikGDrPg", {}).addTo(map);
 var labelLayer = L.tileLayer("https://api.tiles.mapbox.com/v4/wri.acf5a04e/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoid3JpIiwiYSI6IjU3NWNiNGI4Njc4ODk4MmIyODFkYmJmM2NhNDgxMWJjIn0.v1tciCeBElMdpnrikGDrPg", {}).addTo(map);
-});
 ```
 
 **Static images (png, jpg)**
