@@ -23,9 +23,11 @@ WRI Labels Localized CN | Labels in local language (China boundaries) | wri.4d3d
 Basemaps can be accessed through any API that can consume web tiles. These maps are made with OpenStreetMap and MapBox data so must show attribution.
 
 **Public access token**
-```pk.eyJ1Ijoid3JpIiwiYSI6IjU3NWNiNGI4Njc4ODk4MmIyODFkYmJmM2NhNDgxMWJjIn0.v1tciCeBElMdpnrikGDrPg```
+
+```pk.eyJ1Ijoid3JpIiwiYSI6IjU3NWNiNGI4Njc4ODk4MmIyODFkYmJmM2NhNDgxMWJjIn0.v1tciCeBElMdpnrikGDrPg ```
 
 **ArcGIS JS API**
+
 ```
 var map;
 
