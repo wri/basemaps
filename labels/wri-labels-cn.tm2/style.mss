@@ -42,8 +42,8 @@
 }
 
 // Political boundaries //
-/*
-#admin[admin_level=2][maritime=0][zoom>=10] {
+
+#admin[admin_level=2][maritime=0][zoom>=12] {
   line-join: round;
   line-color: #ccc;
   line-width: 1;
@@ -52,33 +52,39 @@
   [zoom>=8] { line-width: 2; }
   [zoom>=10] { line-width: 3; }
   [disputed=1] { line-dasharray: 4,4; }
-} */
+} 
 /*
-#all_bounds[zoom<8][INTL>0] {
+#all_bounds[zoom<12][INTL>0] {
   line-join: round;
   line-color: #ccc;
   line-width: 1;
   [zoom>=5] { line-width: 1.4; }
   [zoom>=6] { line-width: 1.8; }
+  [zoom>=8] { line-width: 2; }
+  [zoom>=10] { line-width: 3; }
   [INTL=2] { line-dasharray: 4,4; }
 }
 */
 // CHINA 
-#all_bounds[zoom<8][CHN>0] {
+#all_bounds[zoom<12][CHN>0] {
   line-join: round;
   line-color: #ccc;
   line-width: 1;
   [zoom>=5] { line-width: 1.4; }
   [zoom>=6] { line-width: 1.8; }
+  [zoom>=8] { line-width: 2; }
+  [zoom>=10] { line-width: 3; }
   [CHN=2] { line-dasharray: 4,4; }
 }
 /* INDIA
-#all_bounds[zoom<8][IND>0] {
+#all_bounds[zoom<12][IND>0] {
   line-join: round;
   line-color: #ccc;
   line-width: 1;
   [zoom>=5] { line-width: 1.4; }
   [zoom>=6] { line-width: 1.8; }
+  [zoom>=8] { line-width: 2; }
+  [zoom>=10] { line-width: 3; }
   [IND=2] { line-dasharray: 4,4; }
 }
 */
