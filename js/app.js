@@ -20,7 +20,7 @@ L.mapbox.accessToken = 'pk.eyJ1Ijoid3JpIiwiYSI6Ik9TY2w5RTQifQ.0HV7dQTjK40mk7GpNN
 		
 
   baseLayers.Mono.addTo(map);
-  L.control.layers(baseLayers, overlays).addTo(map);
+  L.control.layers(baseLayers, overlays, {collapsed:false}).addTo(map);
   
   $('#nav a').click(function(e) {
     $('#nav a').removeClass('active');
