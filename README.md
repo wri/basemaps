@@ -20,7 +20,10 @@ WRI Labels Localized CN | Labels in local language (China boundaries) | wri.4d3d
 
 
 ### Usage
-Basemaps can be accessed through any API that can consume web tiles. These maps are made with OpenStreetMap and MapBox data so must show attribution.
+Basemaps can be accessed through any API that can consume web tiles. These maps are made with OpenStreetMap and MapBox data so must show attribution. The Mapbox SDK libraries, such as Mapbox.js and Mapbox mobile, add this attribution automatically. Otherwise, the following HTML snippet must be included, per the [Mapbox guidelines](https://www.mapbox.com/help/attribution/):
+
+```© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> ```
+
 
 **Public access token**
 
